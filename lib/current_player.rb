@@ -2,8 +2,8 @@ require "pry"
 
 def turn_count(board)
   turns = 0
-board.each do |player|
-  if "X" || "O"
+board.each do |position|
+  if "X" || if "O"
     turns +=1
   end
 end
