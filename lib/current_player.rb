@@ -3,7 +3,7 @@ require "pry"
 def turn_count(board)
   turns = 0
 board.each do |position|
-  if "X" || if "O"
+  if position = "X" || "O"
     turns +=1
   end
 end
